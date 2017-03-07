@@ -9,6 +9,7 @@ import com.vmware.xenon.common.StatefulService;
  */
 public class AddressBookService extends StatefulService {
 
+    // Factory service needs FACTORY_LINK and not SELF_LINK
     public static final String FACTORY_LINK = "/core/addressbook";
 
     // Service document

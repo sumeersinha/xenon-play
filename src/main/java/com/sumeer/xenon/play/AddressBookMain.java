@@ -21,5 +21,8 @@ public class AddressBookMain {
         serviceHost.startFactory(new AddressBookService());
         // Start UI service
         serviceHost.startService(new AddressBookUIService());
+        // Start stateless service
+        // TODO: Is it good/bad to use factory for stateless? when should use Factory on a stateless service?
+        serviceHost.startFactory(new AddressBookCountStatelessService());
     }
 }

@@ -1,8 +1,5 @@
 package com.sumeer.xenon.play;
 
-import com.vmware.xenon.common.FactoryService;
-import com.vmware.xenon.common.Service;
-import com.vmware.xenon.common.ServiceDocument;
 import com.vmware.xenon.services.common.ServiceUriPaths;
 import com.vmware.xenon.services.common.UiContentService;
 
