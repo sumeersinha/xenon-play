@@ -19,5 +19,7 @@ public class AddressBookMain {
         serviceHost.startService(new RootNamespaceService());
         // Start AddressBook ServiceFactory
         serviceHost.startFactory(new AddressBookService());
+        // Start UI service
+        serviceHost.startService(new AddressBookUIService());
     }
 }

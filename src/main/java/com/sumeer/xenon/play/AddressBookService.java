@@ -22,7 +22,14 @@ public class AddressBookService extends StatefulService {
         super(AddressBook.class);
 
         // Persistence, indexing, searching, versioned
-        toggleOption(ServiceOption.PERSISTENCE, true);
+        super.toggleOption(ServiceOption.PERSISTENCE, true);
+
+        super.toggleOption(ServiceOption.REPLICATION, true);
+        super.toggleOption(ServiceOption.INSTRUMENTATION, true);
+        super.toggleOption(ServiceOption.OWNER_SELECTION, true);
+
+        // Custom UI
+        super.toggleOption(ServiceOption.HTML_USER_INTERFACE, true);
     }
 
     /**
