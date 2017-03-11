@@ -1,4 +1,4 @@
-package com.sumeer.xenon.play.operationchains;
+package com.sumeer.xenon.play.taskfsm;
 
 import com.sumeer.xenon.play.taskfsm.FsmTaskService;
 import com.vmware.xenon.common.BasicReusableHostTestCase;
